@@ -20,6 +20,14 @@ module.exports = {
     },
     {
       resolve: 'gatsby-plugin-react-svg',
-    }
+    },
+    {
+      resolve: `gatsby-plugin-gtag`,
+      options: {
+        trackingId: `UA-150763878-1`,
+        head: false,
+        anonymize: true,
+      },
+    },
   ],
 }
