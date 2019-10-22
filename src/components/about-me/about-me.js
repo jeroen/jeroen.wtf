@@ -10,7 +10,7 @@ export default () => (
       <p>And to achieve that I'm comfortable working with different stakeholders, from Design and Content teams to the Engineering ones, speaking their languages and finding the right solutions, and since I'm a frontend developer I can write the code myself. No more crazy requirements that ultimately can't be delivered. Less surprises equals less frustration and better products.</p>
 
       <h4 className="b-about-me__note-title">Things I do when I'm not coding</h4>
-      <p>I enjoy life off screen, doing photography (you can check my <a href="https://instagram/jeroenwtf/" target="_blank" rel="noopener noreferrer">Instagram</a>), playing music or hiking and climbing.</p>
+      <p>I enjoy life off screen, doing photography (you can check my <a href="https://instagram.com/jeroenwtf/" target="_blank" rel="noopener noreferrer">Instagram</a>), playing music or hiking and climbing.</p>
     </div>
   </div>
 );
