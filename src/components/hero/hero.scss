@@ -87,6 +87,41 @@
   display: none;
 }
 
+.b-hero__scroll-down {
+  font-size: 13px;
+  position: absolute;
+  bottom: 16px;
+  text-align: center;
+  left: 0;
+  right: 0;
+  display: block;
+  color: #ffffff;
+  text-decoration: none;
+  opacity: .3;
+
+  @media (min-width: $screen-sm) {
+    display: none;
+  }
+
+  span {
+    display: block;
+    margin-bottom: 8px;
+  }
+
+  svg {
+    width: 32px;
+    fill: #ffffff;
+    animation: bounce 0.5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+  }
+}
+
+@keyframes bounce {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-8px); }
+}
+
 .b-hero__wave {
   display: none;
 
