@@ -31,4 +31,13 @@ module.exports = {
       },
     },
   ],
+  siteMetadata: {
+    title: "Jeroen van Meerendonk - UX Engineer in Barcelona",
+    author: "Jeroen van Meerendonk",
+    description:
+      "UX Engineer and frontend developer in Barcelona focused on Design Systems with HTML, CSS (Sass + BEM), JavaScript (React + Storybook) and PHP (CodeIgniter).",
+    url: "https://jeroen.wtf", // No trailing slash allowed!
+    image: "/hero_bg--large.jpg", // Path to your image you placed in the 'static' folder
+    twitterUsername: "@jeroen_wtf",
+  },
 }
