@@ -7,6 +7,7 @@ exports.onRenderBody = ({ setPostBodyComponents }) => {
       key="1"
       type="text/javascript"
       src="/modernizr-custom.js"
+      async
     />
   ])
 }

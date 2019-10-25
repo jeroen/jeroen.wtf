@@ -1,4 +1,5 @@
 import React from "react"
+import { Helmet } from "react-helmet"
 
 import "../scss/styles.scss";
 
@@ -12,6 +13,10 @@ import Footer from "../components/footer/footer";
 
 export default () => (
   <div>
+    <Helmet>
+      <title>Jeroen van Meerendonk - UX Engineer in Barcelona</title>
+      <meta name="description" content="UX Engineer and frontend developer in Barcelona focused on Design Systems with HTML, CSS (Sass + BEM), JavaScript (React + Storybook) and PHP (CodeIgniter)." />
+    </Helmet>
     <Hero />
     <Meaning />
     <Skills />
