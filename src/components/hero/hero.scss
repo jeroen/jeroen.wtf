@@ -3,19 +3,19 @@
   font-size: 0;
   position: relative;
 
-  @include background-cover('../../static/hero_bg.jpg', #120a33);
+  @include background-cover('../../static/hero_bg.webp', #120a33);
 
   @media (min-width: $screen-sm) {
-    background-image: url('../../static/hero_bg--large.jpg');
+    background-image: url('../../static/hero_bg--large.webp');
   }
 }
 
-.webp {
+.no-webp {
   .b-hero {
-    background-image: url('../../static/hero_bg.webp');
+    background-image: url('../../static/hero_bg.jpg');
 
     @media (min-width: $screen-sm) {
-      background-image: url('../../static/hero_bg--large.webp');
+      background-image: url('../../static/hero_bg--large.jpg');
     }
   }
 }
