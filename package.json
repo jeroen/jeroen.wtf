@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "Jeroen van Meerendonk - UX Engineer in Barcelona",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "description": "UX Engineer and frontend developer in Barcelona focused on Design Systems with HTML, CSS (Sass + BEM), JavaScript (React + Storybook) and PHP (CodeIgniter).",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
